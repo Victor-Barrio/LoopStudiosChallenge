@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Linking my personal CSS and JS files -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="./js/script.js"></script>
+
+  <!-- Google Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <img src="./images/logo.svg" alt="Loopstudios Logo in white" class="header__logo" width="200" height="100">
+
+    <!-- Burger Menu Button -->
+    <button class="header__burgerBtn">
+      <img src="./images/icon-hamburger.svg" alt="Icon with three horizontal lines" class="header__burgerBtn-icon"
+        width="30" height="30">
+    </button>
+
+    <!-- Navigation view for the Mobiles -->
+    <div class="header__fullNavBar">
+      <!-- Close Button -->
+      <div class="header__fullNavBar-close">
+        <img src="./images/logo.svg" alt="Loopstudios Logo in white" class="header__fullNavBar-logo" width="200"
+          height="100">
+
+        <button class="header__fullNavBar-closeBtn">
+          <img src="./images/icon-close.svg" alt="Close Icon" class="header__fullNavBar-closeBtn-icon" width="30"
+            height="30">
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="header__nav" aria-label="Main Navigation">
+        <ul class="header__nav-list">
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-link">About</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-link">Careers</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-link">Events</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-link">Products</a>
+          </li>
+          <li class="header__nav-list-item">
+            <a href="#" class="header__nav-list-link">Support</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1 class="hero__title">IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+    </section>
+
+    <!-- Main Section -->
+    <section class="mainSection">
+      <!-- Image for the Pc view -->
+      <img src="./images/desktop/image-interactive.jpg" alt="Image of a man playing with his VR" width="500"
+        height="400" class="mainSection__image-desktop">
+
+      <!-- Image for the Mobile view -->
+      <img src="./images/mobile/image-interactive.jpg" alt="Image of a man playing with his VR" width="350" height="250"
+        class="mainSection__image-mobile">
+
+      <!-- Container with the text of the main section -->
+      <div class="mainSection__container">
+        <h2 class="mainSection__container-title">THE LEADER IN INTERACTIVE VR</h2>
+        <p class="mainSection__container-text"> Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe. Our award-winning creations have
+          transformed
+          businesses through digital experiences that bind to their brand.</p>
+      </div>
+
+
+
+    </section>
+
+    <!-- Creations Section -->
+    <section class="creations">
+      <h2 class="creations__title">OUR CREATIONS</h2>
+
+      <!-- Container with the creations -->
+      <div class="creations__container">
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-deep-earth.jpg" alt="Image of the earth viewed from the space" width="100"
+            height="300" class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-deep-earth.jpg" alt="Image of the earth viewed from the space" width="350"
+            height="200" class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-40">DEEP EARTH</h3>
+        </div>
+
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-night-arcade.jpg" alt="Arcade machine with glow" width="100" height="300"
+            class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-night-arcade.jpg" alt="Arcade machine with glow" width="350" height="200"
+            class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-40">NIGHT ARCADE</h3>
+        </div>
+
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-soccer-team.jpg" alt="Men playing a football match" width="100" height="300"
+            class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-soccer-team.jpg" alt="Men playing a football match" width="350" height="200"
+            class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-40">SOCCER TEAM VR</h3>
+        </div>
+
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-grid.jpg" alt="Photo taked back part of a car" width="100" height="300"
+            class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-grid.jpg" alt="Photo taked back part of a car" width="350" height="200"
+            class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-20">THE GRID</h3>
+        </div>
+
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-from-above.jpg" alt="Road with curves image taked in the sky" width="100"
+            height="300" class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-from-above.jpg" alt="Road with curves image taked in the sky" width="350"
+            height="200" class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-40">FROM UP ABOVE VR</h3>
+        </div>
+
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-pocket-borealis.jpg" alt="Aurora Borealis" width="100" height="300"
+            class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-pocket-borealis.jpg" alt="Aurora borealis" width="350" height="200"
+            class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-40">POCKET BOREALIS</h3>
+        </div>
+
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-curiosity.jpg" alt="Curiosity rover in the space" width="100" height="300"
+            class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-curiosity.jpg" alt="Curiosity rover in the space" width="350" height="200"
+            class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-40">THE CURIOSITY</h3>
+        </div>
+
+        <div class="creations__container-item">
+          <!-- Image for the Pc view -->
+          <img src="./images/desktop/image-fisheye.jpg" alt="Fish eye image" width="100" height="300"
+            class="creations__container-item-imageDesktop">
+
+          <!-- Image for the Mobile view -->
+          <img src="./images/mobile/image-fisheye.jpg" alt="Fish eye image" width="350" height="200"
+            class="creations__container-item-imageMobile">
+
+          <!-- Title of the creation -->
+          <h3 class="creations__container-item-title width-40">MAKE IT FISHEYE</h3>
+        </div>
+      </div>
+
+      <!-- Show More Button -->
+      <button class="creations__showMoreBtn">
+        <p class="creations__showMoreBtn-text">SEE ALL</p>
+      </button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <img src="./images/logo.svg" alt="Loopstudios Logo in white" class="footer__logo" width="200" height="100">
+
+    <!-- Navigation Links -->
+    <nav class="footer__nav" aria-label="Footer Navigation">
+      <ul class="footer__nav-list">
+        <li class="footer__nav-list-item">
+          <a href="#" class="footer__nav-list-link">About</a>
+        </li>
+        <li class="footer__nav-list-item">
+          <a href="#" class="footer__nav-list-link">Careers</a>
+        </li>
+        <li class="footer__nav-list-item">
+          <a href="#" class="footer__nav-list-link">Events</a>
+        </li>
+        <li class="footer__nav-list-item">
+          <a href="#" class="footer__nav-list-link">Products</a>
+        </li>
+        <li class="footer__nav-list-item">
+          <a href="#" class="footer__nav-list-link">Support</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Social Media Icons -->
+    <div class="footer__media">
+      <div class="footer__socialMedia">
+        <a href="#" class="footer__socialMedia-link">
+          <img src="./images/icon-facebook.svg" alt="Facebook Icon" class="footer__socialMedia-icon" width="30"
+            height="30">
+        </a>
+
+        <a href="#" class="footer__socialMedia-link">
+          <img src="./images/icon-twitter.svg" alt="Twitter Icon" class="footer__socialMedia-icon" width="30"
+            height="30">
+        </a>
+
+        <a href="#" class="footer__socialMedia-link">
+          <img src="./images/icon-pinterest.svg" alt="Pinterest Icon" class="footer__socialMedia-icon" width="30"
+            height="30">
+        </a>
+
+        <a href="#" class="footer__socialMedia-link">
+          <img src="./images/icon-instagram.svg" alt="Instagram Icon" class="footer__socialMedia-icon" width="30"
+            height="30">
+        </a>
+      </div>
+
+      <!-- Copyright -->
+      <address class="footer__copyright">© 2021 Loopstudios. All rights reserved.</address>
+    </div>
+
+  </footer>
+</body>
+
+</html>
