@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Victor-Barrio/LoopStudiosChallenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Victor-Barrio/LoopStudiosChallenge)
+- Live Site URL: [GitHub Pages](https://victor-barrio.github.io/LoopStudiosChallenge/)
 
 ## My process
 
